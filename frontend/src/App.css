@@ -1,0 +1,26 @@
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Narrow scroll bar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Dark background for the track */
+    border-radius: 10px; /* Smooth corners */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #4b4b4b, #1e1e1e); /* Sleek gradient on thumb */
+    border-radius: 10px; /* Smooth rounded corners */
+    border: 2px solid #2c2c2c; /* Add space between thumb and track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #606060, #333333); /* Change color on hover */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* Slim scroll bar */
+    scrollbar-color: #4b4b4b #2c2c2c; /* Thumb and track colors */
+  }
+  
